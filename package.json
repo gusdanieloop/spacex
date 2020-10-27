@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node ./src/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint"
   },
   "keywords": [
     "spacex",
@@ -19,5 +19,8 @@
     "graphql": "^15.4.0",
     "graphql-request": "^3.3.0",
     "json-2-csv": "^3.7.8"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1"
   }
 }
