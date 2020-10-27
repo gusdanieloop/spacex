@@ -1,0 +1,23 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "teste de desenvolvimento usando nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spacex",
+    "api",
+    "graphql",
+    "nodejs"
+  ],
+  "author": "gustavo daniel",
+  "license": "ISC",
+  "dependencies": {
+    "graphql": "^15.4.0",
+    "graphql-request": "^3.3.0",
+    "json-2-csv": "^3.7.8"
+  }
+}
